@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.main div{
+  display: inline-block;
+}
+
+.main-left{
+  width: 220px;
+    top: 0;
+    left: 0;
+    width: 260px;
+    border: none;
+    bottom: 0;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    background: url(https://demos.creative-tim.com/material-dashboard-react/static/media/sidebar-2.310509c9.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.main-left-bg{
+  background: rgba(0,0,0,.7);
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+}
+.header-logo{
+  border-bottom: 0px solid #fff;
+  height: 70px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.line{
+  position: relative;
+  top: -30px;
+  height: 1px;
+  width: 220px;
+  background: rgba(255,255,255,.3);
+}
+.main-left-bg div{
+  display: inline-block;
+
+}
+.logos{
+  position: relative;
+  top:-33px;
+  font-size: 18px;
+}
